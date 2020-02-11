@@ -9,7 +9,6 @@ public class Home
     public void adoptPet(Animal pet)
     {
         list.add(pet);
-        //return list;
     }
     public void makeAllSounds()
     {
@@ -17,13 +16,5 @@ public class Home
         {
             pet.sounds();
         }
-        /*if (adoptPet(cat).equals(dog))
-       {
-           cat.sounds();
-       }
-       else
-       {
-           dog.sounds();
-       }*/
     }
 }

@@ -16,9 +16,10 @@ public class Cat extends Animal
     {
         return name;
     }
-    public void sounds()
+    public String sounds()
     {
-        System.out.println("Cat meows");
+        //System.out.println("Meows");
+        return "Meows";
     }
 
 }

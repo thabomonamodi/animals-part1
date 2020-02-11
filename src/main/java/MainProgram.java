@@ -1,26 +1,22 @@
-import java.util.ArrayList;
 public class MainProgram
 {
     public static void main(String[] args)
     {
+        Dog dog = new Dog();
 
-        /*Dog dog = new Dog();
-
-        dog.eat();   // -> 'Rax eats'
-        dog.sounds(); // -> 'Dog barks'
+        System.out.println(dog.eat());
+        System.out.println(dog.sounds());
 
         Cat cat = new Cat();
 
-        cat.eat();   // -> 'Stormy eats'
-        cat.sounds(); // -> 'Cat meows'*/
-        //ArrayList<Animal> list = new ArrayList<>();
+        System.out.println(cat.eat());
+        System.out.println(cat.sounds());
 
-        // Java
 
         Home home = new Home();
         Dog dog1 = new Dog();
         Dog dog2 = new Dog();
-        Cat cat = new Cat();
+        //Cat cat = new Cat();
 
         home.makeAllSounds();
         home.adoptPet(dog1);
