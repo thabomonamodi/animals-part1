@@ -17,10 +17,9 @@ public class Dog extends Animal
         return name;
     }
 
-    public String sounds()
+    public void sounds()
     {
-        //System.out.println("Barks");
-        return "Barks";
+        System.out.println("Dog barks");
     }
 
 }
